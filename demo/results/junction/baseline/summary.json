@@ -1,0 +1,18 @@
+{
+  "rule": "junction",
+  "policy": "baseline",
+  "jobs": 100,
+  "makespan_s": 13012,
+  "last_home_s": 13070,
+  "trips": 100,
+  "paired_trips": 0,
+  "drive_s": 17904,
+  "shared_passes": 200,
+  "vehicle_jobs": {
+    "G_V01": 50,
+    "G_V02": 49,
+    "G_V03": 1
+  },
+  "solve_seconds": 1.6942,
+  "visits_csv_validation": "PASS"
+}

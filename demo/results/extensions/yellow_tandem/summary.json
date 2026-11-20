@@ -1,0 +1,28 @@
+{
+  "tracks": {
+    "Y": {
+      "material_jobs": 100,
+      "cart_jobs": 100,
+      "material_makespan_s": 89027.9,
+      "all_jobs_makespan_s": 95903.8
+    }
+  },
+  "last_home_s": 95966.2,
+  "last_manual_delivery_s": 96511.6,
+  "trips": 107,
+  "multi_job_trips": 93,
+  "vehicle_jobs": {
+    "Y_V01": {
+      "materials": 96,
+      "carts": 100
+    },
+    "Y_V02": {
+      "materials": 4
+    }
+  },
+  "manual_transfers": 200,
+  "charge_events": 0,
+  "operation_consumption_pct_points": {},
+  "solve_seconds": 0.8669,
+  "visits_csv_validation": "PASS"
+}
