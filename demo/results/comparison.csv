@@ -1,9 +1,0 @@
-rule,policy,jobs,makespan_s,last_home_s,trips,paired_trips,drive_s,shared_passes,solve_seconds,visits_csv_validation
-original,baseline,100,12924,12982,100,0,17904,200,1.4742,PASS
-original,paired,100,8641,8689,56,44,13680,112,1.1935,PASS
-original,work_rate,100,9534,9582,56,44,13680,112,1.2193,PASS
-original,mean_completion,100,12924,12982,100,0,17904,200,2.6281,PASS
-junction,baseline,100,13012,13070,100,0,17904,200,1.6942,PASS
-junction,paired,100,8641,8689,56,44,13680,112,1.308,PASS
-junction,work_rate,100,9534,9582,56,44,13680,112,1.3208,PASS
-junction,mean_completion,100,13012,13070,100,0,17904,200,2.9409,PASS

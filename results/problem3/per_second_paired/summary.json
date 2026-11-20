@@ -1,0 +1,61 @@
+{
+  "tracks": {
+    "R": {
+      "jobs": 50,
+      "makespan_s": 69897.8
+    },
+    "P": {
+      "jobs": 50,
+      "makespan_s": 64925.0
+    }
+  },
+  "vehicles": {
+    "R_V01": {
+      "jobs": 35,
+      "trips": 18,
+      "charges": 2,
+      "home_s": 70003.4,
+      "motion_s": 11337.8,
+      "parked_s": 81.6,
+      "service_s": 984.0,
+      "min_soc_pct": 14.1608,
+      "energy_pp": 237.412
+    },
+    "R_V02": {
+      "jobs": 15,
+      "trips": 8,
+      "charges": 0,
+      "home_s": 4612.0,
+      "motion_s": 4079.84,
+      "parked_s": 108.16,
+      "service_s": 424.0,
+      "min_soc_pct": 13.0816,
+      "energy_pp": 86.9184
+    },
+    "P_V01": {
+      "jobs": 50,
+      "trips": 26,
+      "charges": 4,
+      "home_s": 64940.0,
+      "motion_s": 19987.6,
+      "parked_s": 152.4,
+      "service_s": 1600.0,
+      "min_soc_pct": 12.644,
+      "energy_pp": 417.276
+    }
+  },
+  "crossing_passages": {
+    "X1": 68,
+    "X2": 68
+  },
+  "minimum_cross_track_separation_s": {
+    "X1": 2.72,
+    "X2": 37.16
+  },
+  "material_makespan_s": 69897.8,
+  "last_home_s": 70003.4,
+  "validation": "PASS",
+  "power": "per_second",
+  "policy": "paired",
+  "solve_s": 2.7847
+}

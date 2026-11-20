@@ -1,0 +1,163 @@
+{
+  "cases": [
+    {
+      "rule": "original",
+      "policy": "baseline",
+      "jobs": 100,
+      "makespan_s": 12924,
+      "last_home_s": 12982,
+      "trips": 100,
+      "paired_trips": 0,
+      "drive_s": 17904,
+      "shared_passes": 200,
+      "vehicle_jobs": {
+        "G_V01": 50,
+        "G_V02": 49,
+        "G_V03": 1
+      },
+      "solve_seconds": 2.1048,
+      "visits_csv_validation": "PASS"
+    },
+    {
+      "rule": "original",
+      "policy": "paired",
+      "jobs": 100,
+      "makespan_s": 8641,
+      "last_home_s": 8689,
+      "trips": 56,
+      "paired_trips": 44,
+      "drive_s": 13680,
+      "shared_passes": 112,
+      "vehicle_jobs": {
+        "G_V01": 49,
+        "G_V02": 48,
+        "G_V03": 3
+      },
+      "solve_seconds": 1.5784,
+      "visits_csv_validation": "PASS"
+    },
+    {
+      "rule": "original",
+      "policy": "work_rate",
+      "jobs": 100,
+      "makespan_s": 9534,
+      "last_home_s": 9582,
+      "trips": 56,
+      "paired_trips": 44,
+      "drive_s": 13680,
+      "shared_passes": 112,
+      "vehicle_jobs": {
+        "G_V01": 2,
+        "G_V02": 55,
+        "G_V03": 43
+      },
+      "solve_seconds": 1.7714,
+      "visits_csv_validation": "PASS"
+    },
+    {
+      "rule": "original",
+      "policy": "mean_completion",
+      "jobs": 100,
+      "makespan_s": 12924,
+      "last_home_s": 12982,
+      "trips": 100,
+      "paired_trips": 0,
+      "drive_s": 17904,
+      "shared_passes": 200,
+      "vehicle_jobs": {
+        "G_V01": 50,
+        "G_V02": 49,
+        "G_V03": 1
+      },
+      "solve_seconds": 3.9414,
+      "visits_csv_validation": "PASS"
+    },
+    {
+      "rule": "junction",
+      "policy": "baseline",
+      "jobs": 100,
+      "makespan_s": 13012,
+      "last_home_s": 13070,
+      "trips": 100,
+      "paired_trips": 0,
+      "drive_s": 17904,
+      "shared_passes": 200,
+      "vehicle_jobs": {
+        "G_V01": 50,
+        "G_V02": 49,
+        "G_V03": 1
+      },
+      "solve_seconds": 2.7633,
+      "visits_csv_validation": "PASS"
+    },
+    {
+      "rule": "junction",
+      "policy": "paired",
+      "jobs": 100,
+      "makespan_s": 8641,
+      "last_home_s": 8689,
+      "trips": 56,
+      "paired_trips": 44,
+      "drive_s": 13680,
+      "shared_passes": 112,
+      "vehicle_jobs": {
+        "G_V01": 49,
+        "G_V02": 48,
+        "G_V03": 3
+      },
+      "solve_seconds": 2.1132,
+      "visits_csv_validation": "PASS"
+    },
+    {
+      "rule": "junction",
+      "policy": "work_rate",
+      "jobs": 100,
+      "makespan_s": 9534,
+      "last_home_s": 9582,
+      "trips": 56,
+      "paired_trips": 44,
+      "drive_s": 13680,
+      "shared_passes": 112,
+      "vehicle_jobs": {
+        "G_V01": 2,
+        "G_V02": 55,
+        "G_V03": 43
+      },
+      "solve_seconds": 1.9692,
+      "visits_csv_validation": "PASS"
+    },
+    {
+      "rule": "junction",
+      "policy": "mean_completion",
+      "jobs": 100,
+      "makespan_s": 13012,
+      "last_home_s": 13070,
+      "trips": 100,
+      "paired_trips": 0,
+      "drive_s": 17904,
+      "shared_passes": 200,
+      "vehicle_jobs": {
+        "G_V01": 50,
+        "G_V02": 49,
+        "G_V03": 1
+      },
+      "solve_seconds": 4.1762,
+      "visits_csv_validation": "PASS"
+    }
+  ],
+  "best_by_rule": {
+    "original": "paired",
+    "junction": "paired"
+  },
+  "validation_probes": {
+    "original": {
+      "remove_trip": "missing or unexpected job",
+      "alter_travel_time": "illegal edge or travel duration"
+    },
+    "original_baseline_under_junction": "node/crossing conflict at G_Start",
+    "junction": {
+      "remove_trip": "missing or unexpected job",
+      "alter_travel_time": "illegal edge or travel duration"
+    }
+  }
+}

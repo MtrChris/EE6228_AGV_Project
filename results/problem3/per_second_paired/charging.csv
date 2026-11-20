@@ -1,0 +1,7 @@
+vehicle,trip,node,start_s,end_s,arrival_pct,departure_pct
+R_V01,9,R_ChargingStation1,4549.76,33349.76,14.1608,100
+P_V01,7,P_ChargingStation1,4617.0,15417.0,12.644,100
+P_V01,13,P_ChargingStation1,19716.2,30516.2,17.976,100
+P_V01,18,P_ChargingStation1,35019.0,45819.0,13.244,100
+R_V01,15,R_ChargingStation1,37742.92,66542.92,15.6168,100
+P_V01,23,P_ChargingStation1,50259.8,61059.8,14.164,100

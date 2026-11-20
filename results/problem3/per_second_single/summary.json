@@ -1,0 +1,7 @@
+{
+  "power": "per_second",
+  "policy": "single",
+  "validation": "no schedule",
+  "detail": "No feasible heuristic continuation with {'R': 9, 'P': 5} pending. Last returns and battery: {'R_V01': (4684.56, 11.8072), 'R_V02': (70791.0, 19.952), 'P_V01': (94688.0, 21.76)}",
+  "solve_s": 0.3385
+}

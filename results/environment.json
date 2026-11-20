@@ -1,0 +1,9 @@
+{
+  "base_commit": "5d0ec287ad7a9682363f5dcb63975bacd235df21",
+  "pin": "5d0ec287ad7a9682363f5dcb63975bacd235df21",
+  "os": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "visible_cpus": 9,
+  "replay_validation": "PASS"
+}

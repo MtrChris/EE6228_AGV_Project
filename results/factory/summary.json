@@ -1,0 +1,32 @@
+{
+  "appendix_material_jobs": 300,
+  "generated_yellow_returns": 100,
+  "vehicles": 8,
+  "material_makespan_s": 89027.9,
+  "all_agv_jobs_makespan_s": 95903.8,
+  "last_agv_home_s": 95966.2,
+  "last_manual_delivery_s": 96511.6,
+  "track_material_makespan_s": {
+    "G": 8641.0,
+    "Y": 89027.9,
+    "R": 69897.8,
+    "P": 64925.0
+  },
+  "workload_material": {
+    "G_V02": 48,
+    "G_V01": 49,
+    "G_V03": 3,
+    "Y_V02": 4,
+    "Y_V01": 96,
+    "R_V02": 15,
+    "R_V01": 35,
+    "P_V01": 50
+  },
+  "selected_cases": [
+    "junction/paired",
+    "yellow_tandem, 41.6 m",
+    "per_second_paired"
+  ],
+  "source_job_fields": "PASS",
+  "txt_vs_csv_events": 800
+}

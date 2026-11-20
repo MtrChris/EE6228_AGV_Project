@@ -1,0 +1,64 @@
+track,from_node,to_node,length_m,direction,source_or_assumption
+R,Start,T1,12.5,forward,"Fig. 2, rectangular loop: opposite vertical side assumed equal"
+R,T1,UnloadingStation12,4.3,forward,Fig. 2
+R,UnloadingStation12,ChargingStation1,7.1,forward,Fig. 2
+R,ChargingStation1,LoadingStation12,6.8,forward,Fig. 2
+R,LoadingStation12,T2,4.1,forward,Fig. 2
+R,T2,T3,12.5,forward,Fig. 2
+R,T3,Start,22.3,forward,"Fig. 2, rectangular loop: 4.3+7.1+6.8+4.1"
+R,T2,T17,6.7,both,Fig. 2
+R,T17,T7,1.75,forward,Fig. 2
+R,T7,UnloadingStation1,2,forward,Fig. 2
+R,UnloadingStation1,LoadingStation1,2.6,forward,Fig. 2
+R,LoadingStation1,UnloadingStation2,1.7,forward,Fig. 2
+R,UnloadingStation2,LoadingStation2,1.9,forward,Fig. 2
+R,LoadingStation2,UnloadingStation3,2,forward,Fig. 2
+R,UnloadingStation3,LoadingStation3,2,forward,Fig. 2
+R,LoadingStation3,T9,8.87,forward,Fig. 2
+R,T9,T13,1.92,forward,Fig. 2
+R,T13,T17,20.8,forward,Fig. 2
+R,T9,T10,1.2,both,"Fig. 2, terminal service spur; two-way access assumed on unclear arrows"
+R,T10,LoadingStation4,0.7,both,"Fig. 2, terminal service spur; two-way access assumed on unclear arrows"
+R,LoadingStation4,UnloadingStation4,2.1,both,"Fig. 2, terminal service spur; two-way access assumed on unclear arrows"
+R,T9,T18,0.63,forward,Fig. 2
+R,T18,T8,1.23,forward,Fig. 2
+R,T8,UnloadingStation5,0.5,forward,Fig. 2
+R,UnloadingStation5,LoadingStation5,2.2,forward,Fig. 2
+R,LoadingStation5,UnloadingStation6,2.6,forward,Fig. 2
+R,UnloadingStation6,LoadingStation6,2.4,forward,Fig. 2
+R,LoadingStation6,UnloadingStation7,2,forward,Fig. 2
+R,UnloadingStation7,LoadingStation7,2,forward,Fig. 2
+R,LoadingStation7,T4,0.6,forward,Fig. 2
+R,T4,T14,2.6,forward,Fig. 2
+R,T14,T13,14.6,forward,Fig. 2
+R,T4,T5,1,forward,Fig. 2
+R,T5,T11,1.7,forward,Fig. 2
+R,T11,ConflictPoint1,0.4,forward,"Figs. 1 and 2, 2.80 m split at crossing A"
+R,ConflictPoint1,UnloadingStation8,2.4,forward,"Figs. 1 and 2, 2.80 m split at crossing A"
+R,UnloadingStation8,LoadingStation8,3,forward,Fig. 2
+R,LoadingStation8,UnloadingStation9,1.6,forward,Fig. 2
+R,UnloadingStation9,LoadingStation9,2.8,forward,Fig. 2
+R,LoadingStation9,UnloadingStation10,1.7,forward,Fig. 2
+R,UnloadingStation10,LoadingStation10,2.6,forward,Fig. 2
+R,LoadingStation10,T6,1.1,forward,Fig. 2
+R,T6,T12,4.2,forward,Fig. 2
+R,T12,T16,12.8,forward,Fig. 2
+R,T16,ConflictPoint2,0.42,forward,"Figs. 1 and 2, 2.94 m split at crossing B"
+R,ConflictPoint2,T15,2.52,forward,"Figs. 1 and 2, 2.94 m split at crossing B"
+R,T15,T14,0.6,forward,Fig. 2
+R,T6,UnloadingStation11,1,both,"Fig. 2, terminal service spur; two-way access assumed on unclear arrows"
+R,UnloadingStation11,LoadingStation11,2.8,both,"Fig. 2, terminal service spur; two-way access assumed on unclear arrows"
+P,ChargingStation1,UnloadingStation3,5.6,both,Fig. 3
+P,UnloadingStation3,LoadingStation3,4.2,both,Fig. 3
+P,LoadingStation3,Start,3.3,both,Fig. 3
+P,Start,T4,15.4,both,Fig. 3
+P,T4,T3,13.1,both,"Fig. 3, opposite side assumed equal to 3.3+4.2+5.6"
+P,T3,ConflictPoint1,57.9,both,"Figs. 1 and 3, 64.6 m split at A and B"
+P,ConflictPoint1,ConflictPoint2,5,both,"Figs. 1 and 3, 64.6 m split at A and B"
+P,ConflictPoint2,T2,1.7,both,"Figs. 1 and 3, 64.6 m split at A and B"
+P,T2,T1,24.2,forward,"Fig. 3, opposite horizontal side assumed equal"
+P,T1,UnloadingStation2,26.6,forward,Fig. 3
+P,UnloadingStation2,LoadingStation2,6.3,forward,Fig. 3
+P,LoadingStation2,LoadingStation1,24.2,forward,Fig. 3
+P,LoadingStation1,UnloadingStation1,6.3,forward,"Fig. 3, corresponding vertical intervals assumed equal"
+P,UnloadingStation1,T2,26.6,forward,"Fig. 3, corresponding vertical intervals assumed equal"

@@ -1,0 +1,2 @@
+vehicle,trip,node,start_s,end_s,arrival_pct,departure_pct
+P_V01,41,P_ChargingStation1,26317.4,37117.4,11.159028,100

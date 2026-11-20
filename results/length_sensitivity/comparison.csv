@@ -1,0 +1,7 @@
+length_m,policy,material_makespan_s,all_agv_jobs_s,trips,paired_trips,wall_s
+33.6,yellow_separate,90356.7,95887.8,200,0,0.7527
+33.6,yellow_tandem,88947.9,95887.8,197,3,1.3933
+41.6,yellow_separate,90452.7,95903.8,200,0,0.794
+41.6,yellow_tandem,89027.9,95903.8,107,93,1.2487
+49.6,yellow_separate,90513.5,95919.8,200,0,0.7067
+49.6,yellow_tandem,89139.9,95919.8,108,92,1.2006
